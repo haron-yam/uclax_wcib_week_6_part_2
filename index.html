@@ -4,23 +4,129 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Week 6, Part 1</title>
+    <title>Mighty Swell</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
   </head>
 
   <body>
 
-    <h1>Week 6, Part 1</h1>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+      <a class="navbar-brand" href="#">Mighty Swell</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Where to buy</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Your email here" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Join List</button>
+        </form>
+      </div>
+    </nav>
+
+    <main>
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron background">
+        <div class="container">
+          <img src="images/swell.jpg">
+          <h1 class="display-3">Small but mighty!</h1>
+          <p>The best hard seltzer straight out of Austin, TX</p>
+          <p><a class="btn btn-danger btn-lg" href="#" role="button" data-toggle="modal" data-target="#exampleModal">Click for Flavors &raquo;</a></p>
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row textcolorblack">
+          <div class="col-md-4">
+            <h2>Ingredients</h2>
+            <p>With the freshest ingredients, we guarantee great taste. Learn more about our ingredients, process, and how we get great flavor. </p>
+            <p><a class="btn btn-secondary" href="#" role="button">Tell me more &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Recipes</h2>
+            <p>Our seltzers are great on their own but if you're feeling creative, click below for fun drinks to make. Whether your preference is frozen or on the rocks, we've got something for you. </p>
+            <p><a class="btn btn-secondary" href="#" role="button">Tell me more &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>About us</h2>
+            <p>How exactly did we come up with the idea for the best seltzer in Texas? Click below to find out and to meet the team behind the product.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">Tell me more &raquo;</a></p>
+          </div>
+        </div>
+
+
+
+        <hr>
+
+      </div> <!-- /container -->
+
+      <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body">
+
+        <div class="container2">
+          <div id="imageContainer"></div>
+            <div id="overlayTest" class="overlay">
+              <div class="text">Click me</div>
+            </div>
+
+
+
+
+
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    </main>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
 
 	</body>
+
+
 
 </html>

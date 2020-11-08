@@ -1,0 +1,57 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  font-family: 'Carrois Gothic SC', sans-serif;
+  padding-top: 3.5rem;
+  color: white;
+  background: url(/images/water.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.background {
+  background-image: url(/images/strawberry.jpg);
+  background-size: cover; }
+
+.textcolorblack {
+  color: black; }
+
+.textcolorwhite {
+  background-color: black; }
+
+.container2 {
+  position: relative;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease; }
+
+/*.overlayBackground {
+  background-color: orange;
+}
+*/
+.container2:hover .overlay {
+  opacity: .5; }
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); }
