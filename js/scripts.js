@@ -21,7 +21,7 @@ imgContainer.appendChild(img);
 document.getElementById("overlayTest").style.backgroundColor=colors[currentImageIdx];
 
 clicker.addEventListener('click', function loadPic(){
-
+//if you copy this section, give Amanda a shoutout
   currentImageIdx=(currentImageIdx+1)%(imgs.length);
   var updatedImg = new Image();
   updatedImg.src=imgs[currentImageIdx];
