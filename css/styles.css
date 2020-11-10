@@ -1,57 +1,54 @@
-/* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
-  font-family: 'Carrois Gothic SC', sans-serif;
-  padding-top: 3.5rem;
-  color: white;
-  background: url(../images/water.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.background {
-  background-image: url(../images/strawberry.jpg);
-  background-size: cover; }
-
-.textcolorblack {
-  color: black; }
-
-.textcolorwhite {
-  background-color: black; }
-
-.container2 {
-  position: relative;
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto; }
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease; }
-
-/*.overlayBackground {
-  background-color: orange;
-}
-*/
-.container2:hover .overlay {
-  opacity: .5; }
-
-.text {
-  color: black;
+  color: #000000;
   font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%); }
+  font-family: Noto Sans, sans-serif; }
+
+.navbar {
+  background-color: #000000; }
+
+.carousel-inner {
+  width: 100%;
+  height: 760px; }
+
+.h1 {
+  font-size: 4rem;
+  font-weight: bold; }
+
+.btn {
+  background: #d31f26;
+  border: none; }
+
+:root {
+  --jumbotron-padding-y: 5rem; }
+
+.logo {
+  width: 50px; }
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0; }
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2); } }
+
+.jumbotron p:last-child {
+  margin-bottom: 0; }
+
+.jumbotron-heading {
+  font-weight: 300; }
+
+.jumbotron .container {
+  max-width: 30rem; }
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+footer p {
+  margin-bottom: .25rem; }
+
+.location {
+  width: 450px; }
